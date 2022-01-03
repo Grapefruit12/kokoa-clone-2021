@@ -1,0 +1,9 @@
+.screen-header__circle2{
+    position: absolute;
+    background:tomato;
+    width:6px;
+    height:6px;
+    border-radius: 3px;
+    left:20px;
+    bottom:25px;
+}

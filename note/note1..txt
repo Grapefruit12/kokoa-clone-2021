@@ -1,0 +1,29 @@
+- VSC의 단축키로 navigation에서 하위메뉴까지 한번에 자동 완성 시킬 수 있다.
+→ nav>il>li*(필요한 갯수)>a
+
+아이콘 사이즈 종류
+<i class="fas fa-camera fa-xs"></i>
+<i class="fas fa-camera fa-sm"></i>
+<i class="fas fa-camera fa-lg"></i>  lg가 large의 약자.....
+<i class="fas fa-camera fa-2x"></i>
+<i class="fas fa-camera fa-3x"></i>
+<i class="fas fa-camera fa-5x"></i>
+<i class="fas fa-camera fa-7x"></i>
+<i class="fas fa-camera fa-10x"></i>
+
+네비게이션 바 하단에 고정하기
+position: fixed
+bottom: 0
+width:100%
+box-sizing: border-box
+
+[box-sizing:border-box 사용의 의미]
+:box의 크기를 유지한 채 padding을 줄 수 있다.
+->css에 box크기를 가로200px이라 주고 
+   padding: 가로50px을 줬을때 
+   css는 기존 박스의 가로를 유지하기 위해 50px만큼 박스를 늘림.
+   이를 막기 위해 box-sizing:border-box를 쓰면, box의 크기를 유지한 채 padding을 줄 수 있다.
+
+[원을 만들고싶을때]
+border-radius: 값을
+사각형 width의 값/2하면 됨
