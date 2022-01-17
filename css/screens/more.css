@@ -46,3 +46,23 @@
     font-size:26px;
     color:white;
 }
+.more-icon-row{
+
+    flex-wrap:wrap;
+    
+}
+
+.more-icon-row .icon-row__icon{
+    
+    width:25%;
+    height:25%;
+    
+    
+}
+.more-suggestions__title{
+    font-weight: 500;
+}
+.more-suggestions__icon-text{
+    color:var(--gray);
+    
+}
